@@ -1,0 +1,81 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f5f9;
+}
+
+.head-img {
+  width: 150px;
+}
+
+
+.projects-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.failure-image {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.failure-container h1 {
+  font-size: 20px;
+  color: #334155;
+}
+
+.failure-container p {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.failure-container button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  background-color: #1e40af;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.failure-container button:hover {
+  background-color: #1e3a8a;
+}
